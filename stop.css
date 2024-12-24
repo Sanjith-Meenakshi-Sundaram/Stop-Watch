@@ -1,0 +1,102 @@
+body {
+    background: linear-gradient(to bottom right, #ff7eb3, #ff758c, #ff6f61);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+#container {
+    width: 90%;
+    max-width: 600px;
+    background: linear-gradient(to bottom right, #ffffff, #f8f9fa);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    position: relative;
+}
+
+h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #6c757d;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #6c757d;
+    margin-bottom: 20px;
+}
+
+#timer {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #495057;
+    margin: 20px 0;
+}
+
+button {
+    margin: 10px;
+    padding: 12px 25px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    transition: all 0.3s ease-in-out;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+button.btn-primary {
+    background: linear-gradient(to right, #007bff, #0056d2);
+}
+
+button.btn-secondary {
+    background: linear-gradient(to right, #6c757d, #495057);
+}
+
+button.btn-danger {
+    background: linear-gradient(to right, #dc3545, #b02a37);
+}
+
+button.btn-warning {
+    background: linear-gradient(to right, #ffc107, #e0a800);
+    color: black;
+}
+
+button.btn-info {
+    background: linear-gradient(to right, #17a2b8, #0f6c8c);
+}
+
+button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+#laptime {
+    margin-top: 20px;
+    text-align: left;
+    background: rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    border-radius: 10px;
+    max-height: 200px;
+    overflow-y: auto;
+    color: #495057;
+}
+
+#laptime div {
+    margin: 5px 0;
+    padding: 10px;
+    background: linear-gradient(to right, #f8f9fa, #e9ecef);
+    border-radius: 5px;
+    font-weight: bold;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+    color: #495057;
+}
